@@ -1,0 +1,58 @@
+*{
+    font-family:'National 2', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック', '游ゴシック体', YuGothic, 'Yu Gothic', 'ＭＳ ゴシック', 'MS Gothic', sans-serif; ;
+}
+#navbar {
+    /* border: 2px solid black; */
+    height: 80px;
+    display: flex;
+  
+}
+.img{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 15%;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+.menu{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    gap: 80px;      
+}
+.menu>div{
+    margin-top: 6px;
+}
+.menu>div>a{
+    color: black;
+    text-decoration: none;
+    color: dimgray;
+}
+.btn{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 15%;
+    margin-top: 18px;
+    margin-left: 12%;
+    
+}
+.btn>a>button:nth-child(1){
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight:bold;
+}
+.btn>button:nth-child(2){
+    color: rgba(0, 0, 0, 0.837) ;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 8px;        
+    height: 40px;
+    width: 50%;
+    font-weight:bold;
+}
